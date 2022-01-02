@@ -1,0 +1,135 @@
+*{margin: 0px ;
+padding: 0px;}
+body{background-image: url(balla3.jpg);
+    background-size: cover;
+    background-attachment: fixed;}
+/*Fő keret*/
+
+#container{width:1260px;
+        height: 2000px;
+        margin: 0 auto;
+        position: relative;
+    border: 1px solid lime;}
+
+/*felső rész*/
+ header{   width: 1258px;
+    height: 800px;
+    background-image:  url(balla3.jpg);
+}
+#color{width: 1250px;
+    height: 800px;
+background-image: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9));
+z-index: -1;}
+#balla{
+    height: 200px;
+    height: 200px;
+    position: absolute;
+    top:15%;
+    left:28%;
+
+}
+#balla h1{font-size: 80px;
+color: seashell;
+
+
+}
+#balla h1:first-of-type:first-letter{
+    color:rgb(21, 184, 21);
+    text-shadow: 4px 4px 5px rgb(22, 22, 21)
+}
+
+#balla h2{font-size: 60px;
+    color: seashell;}
+#balla h1, h2{text-align: center;
+text-shadow: 2px 2px 5px rgb(22, 22, 21);
+font-family: 'Lobster', cursive;
+font-weight: bold;
+font-family: 'Viaoda Libre', cursive
+}
+
+/*mavigacon*/
+nav{position: static;
+    width: 1250px;;
+    height: 75px;}
+
+ul{width: 1250px;;
+        height: 75px;
+        background-color:rgba(0,0,0,0.4);
+    display: flex;
+    list-style-type:none; 
+    /position: sticky;
+    top: 5px ;
+    right: 2px;
+    /*padding-right: 20px;*/
+    flex-direction: row;
+    justify-content:flex-end;
+    }
+    ul li{
+        padding: 15px 20px;
+        transition:  0.5s;
+        display: flex;
+        
+        
+     
+       }
+    ul li a{color: seashell;
+    font-size: 35px;
+    
+    }
+    ul li:hover{background: rgb(2, 48, 22);
+        border: 1px solid black;
+    box-shadow: 1px 2px 2px black;
+    box-sizing: border-box;
+    border-radius: 10px ;}
+    
+    ul:last-child li {margin-right: 20px;}
+
+    {width:92%;
+        height: 600px;
+    position: absolute;
+    top:810px;
+    border: 2px solid);
+    
+    column-count: 2;
+    column-rule-style: solid;
+    box-shadow: 3px 3px 5px black;
+    padding:80px 45px;
+    background-image: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+   
+}
+#center{width:92%;
+    height: 600px;
+position: absolute;
+top:810px;
+border: 2px solid);
+
+column-count: 2;
+column-rule-style: solid;
+box-shadow: 3px 3px 5px black;
+padding:80px 45px;
+background-image: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));}
+#center p{color: white;
+        font-size:24px;
+        padding: 6px 10px;
+        text-shadow: 2px 2px 2px black;
+
+}
+#center :first-child{text-indent: 20px;}
+#center p:first-of-type:first-letter{
+    font-size: 50px;
+    color: yellowgreen;
+    font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
+    
+}
+#center:first-child p:nth-letter(2){ont-size: 60px;
+    color: yellowgreen;
+    font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;}
+
+footer{width: 1250px;
+height: 415px;
+background-color:rgba(0,0,0,0.7) ;
+position: absolute;
+top:1580px;
+box-shadow: 6px 7px 6px black;}
+
+

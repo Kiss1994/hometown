@@ -1,0 +1,28 @@
+#cont{width:92%;
+    height: 720px;
+
+border: 2px solid;
+
+column-count: 2;
+column-rule-style: solid;
+box-shadow: 3px 3px 5px black;
+padding:35px 40px;
+background-image: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+#cont p{color: white;
+    font-size: 23px;
+    padding: 25px;
+    text-shadow: 2px 2px 2px black;}
+ #cont :first-child{text-indent: 20px;}
+#cont p:first-of-type:first-letter
+    {
+        font-size: 30px;
+        color: yellowgreen;
+        font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
+        
+    }
+    #cont:first-child p:nth-letter(2){
+       font-size: 60px;
+        color: yellowgreen;
+        font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;}

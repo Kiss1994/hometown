@@ -1,0 +1,24 @@
+*{margin:0px;
+padding: 0px;}
+div#nagy{width: 900px;
+height: 800px;
+margin:10px auto;
+border: 1px solid orange;}
+h1{text-align: center;
+background: #224455;
+font-size: 40px;
+color: aliceblue;
+padding: 20px;
+text-shadow: 2px 2px 2px black;}
+a{font-size: 30px;
+margin:20px;}
+button{font-size: 26px;
+    padding: 30px;
+    border:2px solid blue;
+    margin: 20px;
+    font-weight: bold;
+    background: cadetblue;
+    text-shadow: 2px 2px 2px rgb(31, 161, 144);
+}
+
+p span{display: none;}

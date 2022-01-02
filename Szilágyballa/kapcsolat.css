@@ -1,0 +1,55 @@
+*{margin: 0px;
+padding: 0px;}
+ form{width: 400px;
+height: 600px;
+border: 1px solid green;
+margin: 10px auto;
+background: rgb(145, 255, 0);}
+
+form input{display: block;
+width: 90%;
+height: 30px;
+margin: 10px auto;}
+form img {
+height: 150px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#elso{
+    height: 50px;
+    width: 80%;
+display: block;
+margin: 10px auto;
+font-size: 25px;
+font-weight: bold ;
+background: rgb(19, 125, 173);
+color: aliceblue;
+text-shadow: 2px 2px 2px black;
+box-shadow: 2px 2px 2px black;
+
+
+;
+}
+#elso img{display: inline;
+    width: 50px;
+    height: 50px;
+}
+form fieldset {border-top: 2px black  solid;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    margin: 10px ;
+}
+form legend{ margin:0 auto;
+font-size: 25px;
+padding: 2px 30px;}
+#masodik{height: 50px;
+    width: 80%;
+display: block;
+margin: 10px auto;
+font-size: 25px;
+font-weight: bold ;
+background: rgb(19, 125, 173);
+color: aliceblue;
+text-shadow: 2px 2px 2px black;}
